@@ -1,13 +1,47 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+
+
+.background-gradient-rtl {
+    background: rgb(199, 215, 252);
+    background: linear-gradient(86deg, rgba(199, 215, 252, 1) 0%, rgba(255, 255, 255, 1) 100%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.background-gradient-ltr {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(199, 215, 252, 1) 100%);
 }
+
+.background-image {
+    background-image: url("./Assets/Icon/Mask\ Group\ 9.png");
+}
+
+.background-picture {
+    background-image: url("./Assets/Picture/Mask\ Group\ 1.png");
+    background-repeat: no-repeat;
+}
+.background-image-btn-web{
+    background: rgb(60,13,168);
+    background: linear-gradient(90deg, rgba(60,13,168,1) 0%, rgba(88,51,170,1) 100%);
+}
+.height{
+    height: 750px;
+}
+
+.width-boy{
+    width: 500px;
+    height: 700px;
+}
+.width-girl{
+    width: 500px;
+    height: 500px;
+}
+.web-sizing{
+    width: 600px;
+    height: 480px;
+}
+
+
+
+
+@tailwind utilities;
