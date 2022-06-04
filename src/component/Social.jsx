@@ -17,7 +17,6 @@ export default function WebSite() {
                         <p className="my-5">
                             پیشرفته و با امکانات ایده آل به همراه پشتیبانی به منظور راحتی کاربر
                         </p>
-
                         <p className="my-5">
                             برای کسب و کارهای شما !
                         </p>

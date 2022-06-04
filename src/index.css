@@ -7,25 +7,11 @@
     background: linear-gradient(86deg, rgba(199, 215, 252, 1) 0%, rgba(255, 255, 255, 1) 100%);
 }
 
-.background-gradient-ltr {
-    background: rgb(255, 255, 255);
-    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(199, 215, 252, 1) 100%);
-}
-
-.background-image {
-    background-image: url("./Assets/Icon/Mask\ Group\ 9.png");
-}
-
-.background-picture {
-    background-image: url("./Assets/Picture/Mask\ Group\ 1.png");
-    background-repeat: no-repeat;
-}
-.background-image-btn-web{
-    background: rgb(60,13,168);
-    background: linear-gradient(90deg, rgba(60,13,168,1) 0%, rgba(88,51,170,1) 100%);
-}
 .height{
     height: 750px;
+}
+.height-guide{
+    height: 150px;
 }
 
 .width-boy{
@@ -39,6 +25,12 @@
 .web-sizing{
     width: 600px;
     height: 480px;
+}
+.width-Travel{
+    width: 600px
+}
+.top-picture{
+    width: 500px
 }
 
 

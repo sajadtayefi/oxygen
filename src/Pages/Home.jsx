@@ -5,7 +5,10 @@ import GetStart from "../component/GetStart";
 import WebSite from "../component/WebSite"
 import Applicion from "../component/Applicion"
 import Social from "../component/Social"
-
+import Guide from "../component/Guide";
+import Professional from "../component/Professional";
+import Travel from "../component/Travel"
+import Services from "../component/Services";
 
 export default function Home() {
     return (
@@ -15,7 +18,10 @@ export default function Home() {
             <WebSite />
             <Applicion/>
             <Social/>
-            
+            <Guide/>
+            <Professional/>
+            <Travel/>
+            <Services/>
         </div>
 
     )
