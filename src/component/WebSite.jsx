@@ -22,7 +22,7 @@ export default function WebSite() {
                             برای کسب و کارهای شما !
                         </p>
                     </div>
-                    <button className=" translate-x-10  text-white rounded-xl justify-center background-image-btn-web w-48  p-2 m-10 h-12">
+                    <button className=" btn-gradnt translate-x-10  text-white rounded-xl justify-center background-image-btn-web w-48  p-2 m-10 h-12">
                         <span>
                             مشاوره و درخواست...
                         </span>

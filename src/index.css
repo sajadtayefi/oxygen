@@ -7,30 +7,85 @@
     background: linear-gradient(86deg, rgba(199, 215, 252, 1) 0%, rgba(255, 255, 255, 1) 100%);
 }
 
-.height{
+.height {
     height: 750px;
 }
-.height-guide{
+
+.height-guide {
     height: 150px;
 }
 
-.width-boy{
+.width-boy {
     width: 500px;
     height: 700px;
 }
-.width-girl{
+
+.width-girl {
     width: 500px;
     height: 500px;
 }
-.web-sizing{
+
+.web-sizing {
     width: 600px;
     height: 480px;
 }
-.width-Travel{
+
+.width-Travel {
     width: 600px
 }
-.top-picture{
+
+.top-picture {
     width: 500px
+}
+
+.box {
+    width: 600px;
+    height: 400px
+}
+
+.icon-user {
+    background: url("./Assets/Icon/Group 6015.png") no-repeat right;
+    background-position: left;
+    background-size: 13px;
+    background-position-x: 20px
+}
+
+.icon-phone {
+    background: url("./Assets/Icon/Group 6014.png") no-repeat right;
+    background-position: left;
+    background-size: 15px;
+    background-position-x: 20px
+}
+
+.icon-arrow {
+    background: url("./Assets/Icon/Path\ 6.png") no-repeat right;
+    background-position: left;
+    background-size: 15px;
+    background-position-x: 20px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    user-select: none;
+}
+
+.btn-gradnt3 {
+    background: rgb(52, 56, 207);
+    background: linear-gradient(90deg, rgba(52, 56, 207, 1) 0%, rgba(75, 80, 229, 1) 100%);
+}
+
+.btn-gradnt1 {
+    background: rgb(56, 45, 193);
+    background: linear-gradient(90deg, rgba(56, 45, 193, 1) 0%, rgba(130, 120, 244, 1) 100%);
+}
+
+.btn-gradnt2 {
+    background: rgb(33, 56, 180);
+    background: linear-gradient(90deg, rgba(33, 56, 180, 1) 0%, rgba(58, 69, 219, 1) 100%);
+}
+
+.btn-gradnt {
+    background: rgb(60, 13, 168);
+    background: linear-gradient(90deg, rgba(60, 13, 168, 1) 0%, rgba(88, 51, 170, 1) 100%);
 }
 
 

@@ -15,7 +15,7 @@ export default function Professional() {
   const swiper= useSwiper();
   return (
     <div className=" w-full flex flex-col justify-center   ">
-      <div className="mt-80 top-picture self-center items-center flex   justify-center  " >
+      <div className="mt-40 top-picture self-center items-center flex   justify-center  " >
         <img className=" self-center " src={pro} alt="picture" />
       </div>
       <div className=" m-20  justify-center items-center flex flex-row-reverse">
@@ -33,7 +33,7 @@ export default function Professional() {
           coverflowEffect={{
             slideShadows: false,
             rotate:0,
-            stretch: -50,
+            stretch: -40,
             modifier:3
             
           }}

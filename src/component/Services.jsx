@@ -21,7 +21,7 @@ import pic15 from "../Assets/Icon/15.png"
 
 export default function Services() {
     return (
-        <div className="flex flex-col w-full justify-center items-center mt-40 p-20">
+        <div className="flex flex-col w-full justify-center items-center mt-40 p-15">
             <div className="top-picture">
                 <img className="" src={service} alt="service" />
             </div>
@@ -86,7 +86,7 @@ export default function Services() {
                     </li>
                     <li className=" flex flex-col justify-center items-center">
                         <img src={pic15} alt="pic" />
-                        <span className=" -translate-y-10">ستون خودکار </span>
+                        <span className=" -translate-y-10">سئوی خودکار </span>
                     </li>
                 </ul>
             </div>
