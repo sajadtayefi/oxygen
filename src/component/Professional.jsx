@@ -33,7 +33,7 @@ export default function Professional() {
           coverflowEffect={{
             slideShadows: false,
             rotate:0,
-            stretch: -40,
+            stretch: -50,
             modifier:3
             
           }}

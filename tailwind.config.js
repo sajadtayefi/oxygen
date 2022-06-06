@@ -7,6 +7,9 @@ module.exports = {
   theme: {
     
     extend: {
+      backgroundImage:{
+        'background-image-1': 'url(./src/assets/images/Mask Group 1.png)',
+      },
       container: {
         center: true,
       },

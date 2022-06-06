@@ -16,11 +16,11 @@ export default function Travel() {
             </div>
             <div className=" flex flex-row-reverse w-full justify-center items-center mt-20">
                 <button>
-                    <img className="w-9 ml-10" src={next} alt="next" />
+                    <img className="w-9 ml-16" src={next} alt="next" />
                 </button>
-                <img className=" " src={object} alt="object" />
+                <img className=" w-3/6" src={object} alt="object" />
                 <button >
-                    <img className="w-9 mr-10" src={prev} alt="prev" />
+                    <img className="w-9 mr-16" src={prev} alt="prev" />
                 </button>
             </div>
         </div>

@@ -1,12 +1,6 @@
 @tailwind base;
 @tailwind components;
 
-
-.background-gradient-rtl {
-    background: rgb(199, 215, 252);
-    background: linear-gradient(86deg, rgba(199, 215, 252, 1) 0%, rgba(255, 255, 255, 1) 100%);
-}
-
 .height {
     height: 750px;
 }
@@ -88,6 +82,17 @@
     background: linear-gradient(90deg, rgba(60, 13, 168, 1) 0%, rgba(88, 51, 170, 1) 100%);
 }
 
+.background {
+    background: url(./Assets/Picture/Group\ 4785.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-background {
+    background: url(./Assets/Icon/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 

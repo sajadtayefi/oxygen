@@ -12,24 +12,27 @@ import Services from "../component/Services";
 import Conversation from "../component/Conversation"
 import Question from "../component/Question"
 import Request from "../component/Request"
+import Footer from "../component/Footer";
 
 
 export default function Home() {
     return (
-        <div className=" container  md:max-w-screen-xl     background-gradient-rtl">
-            <TopBar />
-            <GetStart />
-            <WebSite />
-            <Applicion/>
-            <Social/>
-            <Guide/>
-            <Professional/>
-            <Travel/>
-            <Services/>
-            <Conversation/>
-            <Question/>
-            <Request/>
+        <div className="   ">
+            <div className=" container  background  ">
+                <TopBar />
+                <GetStart />
+                <WebSite />
+                <Applicion />
+                <Social />
+                <Guide />
+                <Professional />
+                <Travel />
+                <Services />
+                <Conversation />
+                <Question />
+                <Request />
+                <Footer/>
+            </div>
         </div>
-
     )
 }

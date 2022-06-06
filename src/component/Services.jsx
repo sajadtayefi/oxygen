@@ -26,7 +26,7 @@ export default function Services() {
                 <img className="" src={service} alt="service" />
             </div>
             <div className="mt-32">
-                <ul className="flex flex-row w-full justify-center items-end flex-wrap ">
+                <ul className="flex flex-row w-full justify-center max-w-screen-xl flex-wrap ">
                     <li className=" flex flex-col items-center justify-end ">
                         <img className="" src={pic1} alt="pic" />
                         <span className=" -translate-y-10">مدیریت کاربران</span>
