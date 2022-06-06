@@ -7,11 +7,11 @@ import footer from "../Assets/Picture/Group 4810.png"
 
 export default function Footer() {
     return (
-        <div className="flex flex-col w-full ">
-            <div className=" self-end">
+        <div className="flex flex-col w-full mt-40 ">
+            <div className=" w-28 m-10 self-end">
                 <img src={onlinechat} alt="online" />
             </div>
-            <div>
+            <div className="mt-20 m-5">
                 <div className=" p-5">
                     <img src={footer} alt="footer" />
                 </div>

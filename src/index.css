@@ -93,6 +93,11 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.background1 {
+    background-image: url(./Assets/Picture/Group2.png);
+    background-repeat: no-repeat;
+    background-size: auto
+}
 
 
 

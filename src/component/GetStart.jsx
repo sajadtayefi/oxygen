@@ -27,7 +27,7 @@ export default function GetStart() {
                     </div>
                 </div>
                 <div className="flex flex-row justify-center   ">
-                    <img className=" width-girl -translate-x-8 -translate-y-8	" src={girlpic} alt="image" />
+                    <img className=" width-girl -translate-x-36 -translate-y-8	" src={girlpic} alt="image" />
                     <div className="flex flex-col justify-between">
                         <button className="border-2 w-60 rounded-xl p-2 self-start">
                             <span>
@@ -39,7 +39,7 @@ export default function GetStart() {
                             <img className=" absolute w-10" src={mouse} alt="mouse" />
                         </div>
                     </div>
-                    <img className=" width-boy translate-x-8 -translate-y-40   " src={boypic} alt="image" />
+                    <img className=" width-boy translate-x-36 -translate-y-40   " src={boypic} alt="image" />
                 </div>
 
             </div>
