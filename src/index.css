@@ -98,6 +98,12 @@
     background-repeat: no-repeat;
     background-size: auto
 }
+.background2{
+    background-image: url(./Assets/Picture/Mask\ Group\ 1.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    direction: rtl
+}
 
 
 
