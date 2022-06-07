@@ -1,11 +1,8 @@
 import React from "react";
-import "../index.css"
 import format from "../Assets/Picture/format.png"
 import object from "../Assets/Picture/object.png"
 import next from "../Assets/Icon/Path 2358.png"
 import prev from "../Assets/Icon/Path 2357.png"
-import tablet from "../Assets/Picture/Mask Group 5.png"
-import phone from "../Assets/Picture/Mask Group 6.png"
 
 
 export default function Travel() {

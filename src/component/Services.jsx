@@ -1,5 +1,4 @@
 import React from "react";
-import "../index.css"
 import service from "../Assets/Picture/service.png"
 import pic1 from "../Assets/Icon/1.png"
 import pic2 from "../Assets/Icon/2.png"

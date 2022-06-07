@@ -1,7 +1,5 @@
 import React from "react";
-import "../index.css"
 import onlinechat from "../Assets/Icon/Group 4312.png"
-import background from "../Assets/Picture/Mask Group 1.png"
 import footer from "../Assets/Picture/Group 4810.png"
 
 

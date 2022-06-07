@@ -1,5 +1,4 @@
 import React from "react";
-import "../index.css"
 import background from "../Assets/Picture/Mask Group 1.png"
 import girlpic from "../Assets/Picture/Group 4831.png"
 import boypic from "../Assets/Picture/22.png"
@@ -39,7 +38,7 @@ export default function GetStart() {
                             <img className=" absolute w-10" src={mouse} alt="mouse" />
                         </div>
                     </div>
-                    <img className=" width-boy translate-x-36 -translate-y-40   " src={boypic} alt="image" />
+                    <img className=" width-boy translate-x-32 -translate-y-40   " src={boypic} alt="image" />
                 </div>
 
             </div>

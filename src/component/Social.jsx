@@ -1,5 +1,4 @@
 import React from "react";
-import "../index.css"
 import picture from "../Assets/Picture/Group 4826.png"
 import image from "../Assets/Picture/social.png"
 

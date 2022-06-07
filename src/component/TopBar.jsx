@@ -1,5 +1,4 @@
 import React from "react";
-import ".././index.css";
 import user from "../Assets/Icon/Group 7.png"
 import dot from "../Assets/Icon/Ellipse 1.png"
 

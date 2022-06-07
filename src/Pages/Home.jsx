@@ -1,6 +1,5 @@
 import React from "react";
 import TopBar from "../component/TopBar";
-import "../index.css";
 import GetStart from "../component/GetStart";
 import WebSite from "../component/WebSite"
 import Applicion from "../component/Applicion"

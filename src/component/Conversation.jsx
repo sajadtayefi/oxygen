@@ -1,5 +1,4 @@
 import React from "react";
-import "../index.css"
 import conversation from "../Assets/Picture/conversation.png"
 import next from "../Assets/Icon/Path 2358.png"
 import prev from "../Assets/Icon/Path 2357.png"

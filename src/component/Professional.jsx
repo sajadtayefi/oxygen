@@ -1,5 +1,4 @@
 import React from "react";
-import "../index.css";
 import pro from "../Assets/Picture/professional.png";
 import picture from "../Assets/Picture/Group 1327.png";
 import { Swiper, SwiperSlide, useSwiper } from 'swiper/react';

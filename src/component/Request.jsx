@@ -1,8 +1,6 @@
 import React, { useState } from "react";
-import "../index.css"
 import consultant from "../Assets/Picture/consultant.png"
 import request from "../Assets/Picture/request.png"
-import arrow from "../Assets/Icon/Path 6.png"
 
 
 

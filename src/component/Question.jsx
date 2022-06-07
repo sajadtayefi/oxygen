@@ -1,5 +1,4 @@
 import React from "react";
-import "../index.css"
 import question from "../Assets/Picture/question.png"
 import arrow from "../Assets/Icon/Path 6.png"
 

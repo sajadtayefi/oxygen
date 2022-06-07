@@ -1,5 +1,4 @@
 import React from "react";
-import "../index.css";
 import background from "../Assets/Picture/Group 3039.png";
 import rocket from "../Assets/Picture/Launch.png";
 
