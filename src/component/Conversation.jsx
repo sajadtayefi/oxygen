@@ -8,15 +8,15 @@ import profile from "../Assets/Icon/Group 4842.png"
 
 export default function Conversation() {
     return (
-        <div className="flex flex-col justify-center items-center w-full mt-40">
-            <div className="top-picture" >
-                <img src={conversation} alt="picture" />
+        <div className="flex flex-col justify-center items-center w-full lg:mt-40">
+            <div className=" w-auto" >
+                <img className="max-w-sm lg:max-w-lg self-center" src={conversation} alt="picture" />
             </div>
             <div className="flex flex-col justify-center w-full mt-28  items-center m-10">
                 <div className="flex flex-row items-center justify-around w-full">
                     <img className=" w-9  " src={prev} alt="prev" />
                     <div className=" flex flex-col  box m-10  justify-between h-full p-2 rounded-xl bg-white text-right">
-                        <div className="flex flex-row justify-between">
+                        <div className="flex flex-col items-center md:flex-row justify-between">
                             <img className=" -translate-y-12 translate-x-10 w-20" src={profile} alt="profile" />
                             <div className=" p-4">
                                 <h3 className=" text-indigo-800  ">محمدامین علیزاده</h3>

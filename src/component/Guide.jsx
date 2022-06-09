@@ -5,19 +5,18 @@ import rocket from "../Assets/Picture/Launch.png";
 
 export default function Guide() {
     return (
-        <div className=" container  flex flex-col mt-52 ">
-            <div className=" flex flex-row justify-center w-full items-center p-10 ">
-                <img className=" self-center height-guide w-full " src={background} alt="background" />
-                <div className=" flex flex-row-reverse w-full text-right  items-center justify-center absolute">
-                    <img className="  w-28 m-15 -translate-y-9 " src={rocket} alt=" rocket" />
-                    <h3 className=" text-white mx-16 m-15">
+        <div className=" bg-bar  rounded-3xl sm:flex-row-reverse flex-col   bg-center bg-no-repeat md:justify-around   flex  justify-center items-center mt-20 lg:mt-40 w-full ">
+            <img className=" md:hidden sm:flex -translate-y-7  w-20 " src={rocket} alt=" rocket" />
+            <div className="flex flex-row-reverse   justify-center items-center ">
+            <img className=" hidden md:flex -translate-y-7  w-20 " src={rocket} alt=" rocket" />
+                    <h3 className=" text-white lg:ml-40  sm:full ">
                         تیم مشاوران اکسیژن آماده راهنمایی رایگان شما هستند !
                     </h3>
-                    <button className=" rounded-lg mr-80 bg-white w-52 m-15 p-5">
+            </div>
+                  
+                    <button className=" rounded-lg sm:w-50  bg-white w-52 m-2 p-3">
                         رایگان شروع کنید ...
                     </button>
-                </div>
-            </div>
         </div>
     )
 }

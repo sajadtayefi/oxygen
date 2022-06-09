@@ -16,8 +16,8 @@ import Footer from "../component/Footer";
 
 export default function Home() {
     return (
-        <div className="   ">
-            <div className=" container  background  ">
+        <div className=" background flex justify-center items-center flex-col mx-auto   ">
+            <div className=" container mx-auto px-4    ">
                 <TopBar />
                 <GetStart />
                 <WebSite />

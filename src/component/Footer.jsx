@@ -13,7 +13,7 @@ import twitter from "../Assets/Icon/Path 2000.png"
 
 export default function Footer() {
     return (
-        <div className="flex flex-col w-full mt-40 text-white ">
+        <div className="flex flex-col w-full lg:mt-40 text-white ">
             <div className=" w-28 m-10 self-end">
                 <img src={onlinechat} alt="online" />
             </div>
@@ -23,7 +23,7 @@ export default function Footer() {
                         <img className=" -translate-y-16 absolute" src={ArrowUp} alt="arrow up" />
                     </div>
                     <div className="m-14 w-full ">
-                        <ul className=" flex flex-row w-full justify-around  text-right items-center">
+                        <ul className=" flex flex-col md:flex-row w-full justify-around  text-right items-center">
                             <li className="flex flex-col ">
                                 <span className=" m-2">
                                      فروشگاه اینترنتی اکسیژن
@@ -78,8 +78,8 @@ export default function Footer() {
                             </li>
                         </ul>
                     </div>
-                    <div className=" flex  self-start mr-16 mb-20 " >
-                        <ul className="flex flex-row w-full   items-center ">
+                    <div className=" flex  self-start mb-20 md:mr-10 " >
+                        <ul className="flex flex-row w-full justify-center   items-center ">
                             <li className=" border-l-2 "> <img className=" mx-5" src={youtube} alt="" /></li>
                             <li className="border-l-2"> <img className=" mx-5" src={twitter} alt="" /></li>
                             <li className="border-l-2"> <img className=" mx-5" src={instagram} alt="" /></li>

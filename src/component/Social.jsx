@@ -4,10 +4,10 @@ import image from "../Assets/Picture/social.png"
 
 export default function WebSite() {
     return (
-        <div className="Container w-full flex flex-col items-center" >
-            <div className=" flex flex-row-reverse mt-80 justify-center ">
-                <img className=" web-sizing mx-10  " src={picture} alt="picture" />
-                <div className="flex flex-col justify-center items-end mx-10  web-sizing ">
+        <div className="w-full flex flex-col items-center lg:mt-40  mt-20" >
+            <div className=" flex flex-col-reverse justify-center items-center xl:flex-row-reverse">
+                <img className="mx-10 w-2/5 h-auto   " src={picture} alt="picture" />
+                <div className="flex flex-col justify-center items-end mx-10 w-2/5 h-auto ">
                     <img className=" w-80 " src={image} alt="website" />
                     <div className="my-10 text-right ">
                         <p className="my-5">
@@ -20,7 +20,7 @@ export default function WebSite() {
                             برای کسب و کارهای شما !
                         </p>
                     </div>
-                    <button className=" btn-gradnt2 translate-x-10   text-white rounded-xl justify-center background-image-btn-web w-48  p-2 m-10 h-12">
+                    <button className=" sm:w-40 btn-gradnt2 translate-x-10   text-white rounded-xl justify-center background-image-btn-web w-48  p-2 m-10 h-12">
                         <span>
                             مشاوره و درخواست...
                         </span>

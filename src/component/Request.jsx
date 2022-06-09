@@ -19,11 +19,11 @@ export default function Request() {
 
 
     return (
-        <div className=" container flex flex-row p-5 mt-40  items-center ">
-            <div className=" w-6/12 flex justify-center " >
-                <img className=" w-10/12 " src={consultant} alt="picture" />
+        <div className="  flex flex-col lg:flex-row p-5 lg:mt-40  items-center ">
+            <div className=" w-full flex justify-center " >
+                <img className=" w-60 lg:w-full " src={consultant} alt="picture" />
             </div>
-            <div className=" flex flex-col text-right justify-center items-center w-1/2 ">
+            <div className=" flex flex-col text-right justify-center items-center w-full">
                 <img className="w-7/12" src={request} alt="picture" />
                 <div className="" >
                     <p className=" m-3 mr-10">

@@ -1,28 +1,11 @@
 @tailwind base;
 @tailwind components;
 
-.height {
-    height: 750px;
-}
 
-.height-guide {
-    height: 150px;
-}
 
-.width-boy {
-    width: 500px;
-    height: 700px;
-}
 
-.width-girl {
-    width: 500px;
-    height: 500px;
-}
 
-.web-sizing {
-    width: 600px;
-    height: 480px;
-}
+
 
 .width-Travel {
     width: 600px
@@ -86,6 +69,8 @@
     background: url(./Assets/Picture/Group\ 4785.png);
     background-repeat: no-repeat;
     background-size: cover;
+    backdrop-filter: blur(100px);
+    background-position: center;
 }
 
 .btn-background {
@@ -103,6 +88,18 @@
     background-repeat: no-repeat;
     background-size: auto;
     direction: rtl
+}
+.background3{
+    background-image: url(./Assets/Picture/Group2.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.background4{
+    background-image: url(./Assets/Picture/some.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
 }
 
 

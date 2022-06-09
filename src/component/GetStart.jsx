@@ -8,40 +8,32 @@ import polygon from "../Assets/Icon/Polygon 1.png"
 
 export default function GetStart() {
     return (
-        <div className="Container w-full flex flex-col items-center ">
-            <img className="relative p-10 w-screen height  " src={background} alt="background" />
-            <div className=" w-full absolute rounded-3xl flex flex-col   justify-center items-center  text-white " >
-                <div className="">
-                    <h2 className="m-auto mt-24 Peyda-Bold text-3xl font-face ">
-                        اکسیژن بهترین روش برای یک شروع عالی در کسب و کار !
-                    </h2>
-                    <div className="m-auto my-10 text-center">
-                    <p className="m-5">
-                        ساخت فروشگاه ساز بدون نیاز به دانش برنامه‌نویسی،
-                        با کمترین زمان و هزینه یک خدمات
+            <div className=" text-white sm:w-full w-auto bg-background bg-center bg-no-repeat  bg- flex flex-col items-center justify-center rounded-3xl ">
+                <div className=" flex flex-col  items-center text-right mt-10 w-full  ">
+                    <h3 className="m-10 text-3xl  sm:w-auto ">
+                        اکسیژن  بهترین  روش  برای یک  شروع  عالی  در  کسب  و  کار   !
+                    </h3>
+                    <p className="my-10 md:w-auto  sm:w-40 ">
+                        ساخت فروشگاه ساز بدون نیاز به دانش برنامه‌نویسی،  با کمترین زمان و هزینه یک خدمات  360
                     </p>
-                    <p>
+                    <p className=" md:w-auto sm:w-40">
                         عالی بسازید و کاربران خود را شگفت ‌زده کنید  …
                     </p>
-                    </div>
+                    <button className="p-2 mt-10 border-2 rounded-md w-40 sm:w-auto">
+                        <span>
+                            همین حالا شروع کنید
+                        </span>
+                    </button>
                 </div>
-                <div className="flex flex-row justify-center   ">
-                    <img className=" width-girl -translate-x-36 -translate-y-8	" src={girlpic} alt="image" />
-                    <div className="flex flex-col justify-between">
-                        <button className="border-2 w-60 rounded-xl p-2 self-start">
-                            <span>
-                                همین الان شروع کنید !
-                            </span>
-                        </button>
-                        <div className=" -translate-y-56 flex flex-col justify-center items-center self-center bottom-0 ">
-                            <img className=" relative" src={polygon} alt="polygon" />
-                            <img className=" absolute w-10" src={mouse} alt="mouse" />
-                        </div>
-                    </div>
-                    <img className=" width-boy translate-x-32 -translate-y-40   " src={boypic} alt="image" />
+                <div className="flex flex-row max-w-7xl  justify-between items-center  ">
+                    <img className=" xl:scale-125 max-w-7xl lg:max-w-lg md:w-1/3 sm:w-40   max-h-96" src={girlpic} alt="img" />
+                    <img className="  xl:scale-125 max-w-5xl  lg:max-w-lg md:w-1/3 sm:w-40  max-h-96" src={boypic} alt="img" />
                 </div>
-
+                <div className="    flex flex-col justify-center items-center  ">
+                    <img className=" w-10 sm:w-6 z-10" src={mouse} alt="mouse" />
+                    <img className="  absolute" src={polygon} alt="" />
+                </div>
             </div>
-        </div>
+
     )
 }
