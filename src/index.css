@@ -2,24 +2,6 @@
 @tailwind components;
 
 
-
-
-
-
-
-.width-Travel {
-    width: 600px
-}
-
-.top-picture {
-    width: 500px
-}
-
-.box {
-    width: 600px;
-    height: 400px
-}
-
 .icon-user {
     background: url("./Assets/Icon/Group 6015.png") no-repeat right;
     background-position: left;

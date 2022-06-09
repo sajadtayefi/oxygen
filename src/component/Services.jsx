@@ -25,65 +25,65 @@ export default function Services() {
                 <img className="max-w-sm lg:max-w-lg self-center" src={service} alt="service" />
             </div>
             <div className="mt-32">
-                <ul className="flex flex-row w-full justify-center max-w-screen-xl flex-wrap ">
-                    <li className=" flex flex-col items-center justify-end ">
+                <ul className="flex flex-row  justify-center max-w-screen-xl flex-wrap ">
+                    <li className=" flex flex-col justify-center w-1/2 md:w-auto  items-center ">
                         <img className="" src={pic1} alt="pic" />
                         <span className=" -translate-y-10">مدیریت کاربران</span>
                     </li>
-                    <li className=" flex flex-col justify-center items-center">
+                    <li className=" flex flex-col justify-center w-1/2 md:w-auto  items-center">
                         <img src={pic2} alt="pic" />
                         <span className=" -translate-y-10">سبد خرید </span>
                     </li>
-                    <li className=" flex flex-col justify-center items-center">
+                    <li className=" flex flex-col justify-center w-1/2 md:w-auto  items-center">
                         <img src={pic3} alt="pic" />
                         <span className=" -translate-y-10">اتصال دامنه </span>
                     </li>
-                    <li className=" flex flex-col justify-center items-center">
+                    <li className=" flex flex-col justify-center w-1/2 md:w-auto  items-center">
                         <img src={pic4} alt="pic" />
                         <span className=" -translate-y-10">گوگل مپ </span>
                     </li>
-                    <li className=" flex flex-col justify-center items-center">
+                    <li className=" flex flex-col justify-center w-1/2 md:w-auto  items-center">
                         <img src={pic5} alt="pic" />
                         <span className=" -translate-y-10"> جستجوی حرفه ای</span>
                     </li>
-                    <li className=" flex flex-col justify-center items-center">
+                    <li className=" flex flex-col justify-center w-1/2 md:w-auto  items-center">
                         <img src={pic6} alt="pic" />
                         <span className=" -translate-y-10">مدیریت فروش  </span>
                     </li>
-                    <li className=" flex flex-col justify-center items-center">
+                    <li className=" flex flex-col justify-center w-1/2 md:w-auto  items-center">
                         <img src={pic7} alt="pic" />
                         <span className=" -translate-y-10">گزارش گیری</span>
 
                     </li>
-                    <li className=" flex flex-col justify-center items-center">
+                    <li className=" flex flex-col justify-center w-1/2 md:w-auto  items-center">
                         <img src={pic8} alt="pic" />
                         <span className=" -translate-y-10">رایگان ssl  </span>
                     </li>
-                    <li className=" flex flex-col justify-center items-center">
+                    <li className=" flex flex-col justify-center w-1/2  md:w-auto  items-center">
                         <img src={pic9} alt="pic" />
                         <span className=" -translate-y-10"> شخصی سازی</span>
                     </li>
-                    <li className=" flex flex-col justify-center items-center">
+                    <li className=" flex flex-col justify-center w-1/2 md:w-auto  items-center">
                         <img src={pic10} alt="pic" />
                         <span className=" -translate-y-10">صفحات داخلی </span>
                     </li>
-                    <li className=" flex flex-col justify-center items-center">
+                    <li className=" flex flex-col justify-center w-1/2 md:w-auto  items-center">
                         <img src={pic11} alt="pic" />
                         <span className=" -translate-y-10"> چت آنلاین </span>
                     </li>
-                    <li className=" flex flex-col justify-center items-center">
+                    <li className=" flex flex-col justify-center w-1/2 md:w-auto  items-center">
                         <img src={pic12} alt="pic" />
                         <span className=" -translate-y-10"> امنیت بالا</span>
                     </li>
-                    <li className=" flex flex-col justify-center items-center">
+                    <li className=" flex flex-col justify-center w-1/2 md:w-auto  items-center">
                         <img src={pic13} alt="pic" />
                         <span className=" -translate-y-10"> درگاه پرداخت</span>
                     </li>
-                    <li className=" flex flex-col justify-center items-center">
+                    <li className=" flex flex-col justify-center w-1/2 md:w-auto  items-center">
                         <img src={pic14} alt="pic" />
                         <span className=" -translate-y-10">دسته بندی محصولات </span>
                     </li>
-                    <li className=" flex flex-col justify-center items-center">
+                    <li className="flex flex-col justify-center w-1/2 md:w-auto  items-center">
                         <img src={pic15} alt="pic" />
                         <span className=" -translate-y-10">سئوی خودکار </span>
                     </li>
