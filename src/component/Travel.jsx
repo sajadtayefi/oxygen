@@ -11,13 +11,13 @@ export default function Travel() {
             <div className="flex flex-row top-picture w-auto ">
                 <img className="max-w-sm lg:max-w-lg self-center  " src={format} alt="picture" />
             </div>
-            <div className=" flex flex-row-reverse w-full justify-center items-center mt-20">
+            <div className=" flex flex-row-reverse w-full justify-around items-center mt-20">
                 <button>
-                    <img className="w-9 ml-16" src={next} alt="next" />
+                    <img className="w-9 " src={next} alt="next" />
                 </button>
-                <img className=" w-3/6" src={object} alt="object" />
+                <img className=" max-w-sm lg:max-w-lg self-center " src={object} alt="object" />
                 <button >
-                    <img className="w-9 mr-16" src={prev} alt="prev" />
+                    <img className="w-9 " src={prev} alt="prev" />
                 </button>
             </div>
         </div>

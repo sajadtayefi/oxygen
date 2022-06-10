@@ -6,9 +6,9 @@ export default function WebSite() {
     return (
         <div className="Container w-full flex flex-col items-center justify-center" >
             <div className=" flex flex-col-reverse lg:mt-40 mt-20 justify-center items-center xl:flex-row  ">
-                <img className=" mx-10  w-2/5 h-auto  " src={picture} alt="picture" />
+                <img className="max-w-sm lg:max-w-lg self-center " src={picture} alt="picture" />
                 <div className="flex flex-col justify-center items-end mx-10 w-2/5 h-auto   ">
-                    <img className=" w-80 " src={image} alt="website" />
+                    <img className=" max-w-xs self-center " src={image} alt="website" />
                     <div className="my-10 text-right ">
                         <p className="my-5">
                             توسعه فروشگاههایی با ظاهر جذاب و سرعت بینظیر و امکان مدیریت

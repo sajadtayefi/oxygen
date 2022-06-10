@@ -43,8 +43,8 @@ export default function Professional() {
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log('slide change')}
         >
-          <div className="flex flex-row justify-between mx-5 items-center">
-          <SlidePerButton />
+          <div className=" md:flex flex-row justify-between mx-5 items-center hidden">
+          <SlidePerButton  />
           <SlideNextButton />
           </div>
           <SwiperSlide className=" blur-sm"><img src={picture} alt="slider" /></SwiperSlide>

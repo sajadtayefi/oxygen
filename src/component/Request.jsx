@@ -24,7 +24,7 @@ export default function Request() {
                 <img className=" w-60 lg:w-full " src={consultant} alt="picture" />
             </div>
             <div className=" flex flex-col text-right justify-center items-center w-full">
-                <img className="w-7/12" src={request} alt="picture" />
+                <img className=" max-w-xs self-center" src={request} alt="picture" />
                 <div className="" >
                     <p className=" m-3 mr-10">
                         درخواست مشاوره رایگان با تیم اکسیژن پس همین الان برای رشد
