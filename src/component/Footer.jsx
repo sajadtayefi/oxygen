@@ -22,10 +22,10 @@ export default function Footer() {
                     <div className=" flex  justify-center">
                         <img className=" -translate-y-16 absolute" src={ArrowUp} alt="arrow up" />
                     </div>
-                    <div className="m-14 w-full ">
-                        <ul className=" flex flex-col md:flex-row w-full justify-around  text-right items-center">
+                    <div className="m-14 w-full  ">
+                        <ul className=" flex flex-col md:flex-row w-full justify-around md:items-center   text-right items-start">
                             <li className="flex flex-col ">
-                                <span className=" m-2">
+                                <span className=" text-2xl m-2">
                                      فروشگاه اینترنتی اکسیژن
                                 </span>
                                 <div className=" flex flex-col">
@@ -41,7 +41,7 @@ export default function Footer() {
                                 </div>
                             </li>
                             <li className="flex flex-col ">
-                                <span className="m-2">
+                                <span className="m-2 text-2xl">
                                     کسب و کار های بزرگ
                                 </span>
                                 <div className=" flex flex-col">
@@ -57,7 +57,7 @@ export default function Footer() {
                                 </div>
                             </li>
                             <li className="flex flex-col ">
-                                <span className="m-2 tex">
+                                <span className="m-2 text-2xl">
                                     خدمات اختصاصی
                                 </span>
                                 <div className=" flex flex-col">

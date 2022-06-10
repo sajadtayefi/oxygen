@@ -5,6 +5,11 @@ module.exports = {
     
   ],
   theme: {
+    fontFamily: {
+      'Peyda-bold': ['Peyda-bold'],
+      'Peyda-ExtraBold': ['Peyda-ExtraBold'], 
+      'Peyda-Medium': ['Peyda-Medium'],
+    },
     screens: {
       'sm': '374px',
       // => @media (min-width: 640px) { ... }

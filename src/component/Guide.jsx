@@ -9,7 +9,7 @@ export default function Guide() {
             <img className=" md:hidden sm:flex -translate-y-7  w-20 " src={rocket} alt=" rocket" />
             <div className="flex flex-row-reverse   justify-center items-center ">
             <img className=" hidden md:flex -translate-y-7  w-20 " src={rocket} alt=" rocket" />
-                    <h3 className=" text-white lg:ml-40  sm:full ">
+                    <h3 className=" text-white lg:ml-40 text-2xl  sm:full ">
                         تیم مشاوران اکسیژن آماده راهنمایی رایگان شما هستند !
                     </h3>
             </div>
