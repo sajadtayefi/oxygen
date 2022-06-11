@@ -2,7 +2,7 @@ import React from "react";
 import pro from "../Assets/Picture/professional.png";
 import picture from "../Assets/Picture/Group 1327.png";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, {  EffectCoverflow } from "swiper";
+import SwiperCore, { EffectCoverflow,Pagination } from "swiper";
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
@@ -23,14 +23,42 @@ export default function Professional() {
         <Swiper
           className="w-full"
           // install Swiper modules
-          modules={[EffectCoverflow]}
+          modules={[EffectCoverflow,Pagination]}
           spaceBetween={30}
           slidesPerView={3}
           initialSlide={1}
+          
           centerInsufficientSlides={true}
           maxBackfaceHiddenSlides={3}
           rewind={true}
           effect="coverflow"
+          breakpoints={
+            {
+              // when window width is >= 320px
+              320: {
+                slidesPerView: 1,
+                spaceBetween: 50,
+                
+              }
+              // when window width is >= 480px
+              , 480: {
+                slidesPerView: 1,
+                spaceBetween: 70,
+              }
+              // when window width is >= 640px
+              , 640: {
+                slidesPerView: 3,
+                spaceBetween: 10,
+              }
+              // when window width is >= 768px
+              , 768: {
+                slidesPerView: 3,
+                spaceBetween: 10
+              }
+              // when window width is >= 1024px
+
+            }
+          }
           centeredSlides
           coverflowEffect={{
             slideShadows: false,
@@ -44,15 +72,15 @@ export default function Professional() {
           onSlideChange={() => console.log('slide change')}
         >
           <div className=" md:flex flex-row justify-between mx-5 items-center hidden">
-          <SlidePerButton  />
-          <SlideNextButton />
+            <SlidePerButton />
+            <SlideNextButton />
           </div>
           <SwiperSlide className=" blur-sm"><img src={picture} alt="slider" /></SwiperSlide>
           <SwiperSlide className=""><img src={picture} alt="slider" /></SwiperSlide>
           <SwiperSlide className=" blur-sm"><img src={picture} alt="slider" /></SwiperSlide>
-          
+
         </Swiper>
       </div>
-    </div>
+    </div >
   )
 }

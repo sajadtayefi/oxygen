@@ -31,6 +31,7 @@ module.exports = {
       backgroundImage: {
         'bar':'url("./Assets/Picture/Group 3039.png")',
         'background': 'url("./Assets/Picture/Mask Group 1.png")',
+        'backgroundpage':'url("./Assets/Picture/Group 4785.png")',
       },
       container: {
         center: true,

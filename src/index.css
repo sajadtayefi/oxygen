@@ -47,13 +47,7 @@
     background: linear-gradient(90deg, rgba(60, 13, 168, 1) 0%, rgba(88, 51, 170, 1) 100%);
 }
 
-.background {
-    background: url(./Assets/Picture/Group\ 4785.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    backdrop-filter: blur(100px);
-    background-position: center;
-}
+
 
 .btn-background {
     background: url(./Assets/Icon/back.png);
