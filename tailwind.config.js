@@ -5,6 +5,9 @@ module.exports = {
     
   ],
   theme: {
+    container: {
+      center: true,
+    },
     fontFamily: {
       'Peyda-bold': ['Peyda-bold'],
       'Peyda-ExtraBold': ['Peyda-ExtraBold'], 

@@ -29,7 +29,7 @@ export default function Professional() {
           spaceBetween={30}
           slidesPerView={3}
           initialSlide={1}
-
+          speed={1500}
           centerInsufficientSlides={true}
           maxBackfaceHiddenSlides={3}
           rewind={true}
@@ -40,7 +40,6 @@ export default function Professional() {
               320: {
                 slidesPerView: 1,
                 spaceBetween: 50,
-
               }
               // when window width is >= 480px
               , 480: {
@@ -58,7 +57,6 @@ export default function Professional() {
                 spaceBetween: 10
               }
               // when window width is >= 1024px
-
             }
           }
           centeredSlides

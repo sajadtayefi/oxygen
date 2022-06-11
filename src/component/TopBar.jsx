@@ -60,7 +60,7 @@ export default function TopBar() {
             <div className="flex flex-row  justify-end">
                 <button
                     onClick={() => setNavbar(!navbar)}
-                    className={navbar ? " hidden" : " cursor-pointer text-white my-8 self-end  w-40  xl:hidden flex  flex-row justify-end"}
+                    className={navbar ? " hidden" : " cursor-pointer text-white my-8 self-end mr-5  w-40  xl:hidden flex  flex-row justify-end"}
                 >
                     <img className=" self-center" onClick={toggleNavbar} src={menu} alt="" />
                 </button>
