@@ -6,10 +6,10 @@ export default function Social() {
     return (
         <div className="w-full flex flex-col items-center lg:mt-40  mt-20" >
             <div className=" flex flex-col-reverse justify-center items-center xl:flex-row-reverse">
-                <img className="max-w-sm lg:max-w-lg self-center   " src={picture} alt="picture" />
-                <div className="flex flex-col justify-center items-end mx-10 w-2/5 h-auto ">
-                    <img className=" max-w-xs self-center " src={image} alt="website" />
-                    <div className="my-10 text-right ">
+                <img className="max-w-sm lg:max-w-sm self-center   " src={picture} alt="picture" />
+                <div className="flex flex-col justify-center items-end mx-10  h-auto ">
+                    <img className=" md:w-1/2  " src={image} alt="website" />
+                    <div className=" text-right ">
                         <p className="my-5">
                             توسعه فروشگاههایی با ظاهر جذاب و سرعت بینظیر و امکان مدیریت
                         </p>
@@ -20,7 +20,7 @@ export default function Social() {
                             برای کسب و کارهای شما !
                         </p>
                     </div>
-                    <button className=" sm:w-40 btn-gradnt2 translate-x-10   text-white rounded-xl justify-center background-image-btn-web w-48  p-2 m-10 h-12">
+                    <button className=" sm:w-40 btn-gradnt2 translate-x-10   text-white rounded-xl justify-center background-image-btn-web w-48  p-2 mr-10 h-12">
                         <span>
                             مشاوره و درخواست...
                         </span>
