@@ -25,13 +25,13 @@ export default function GetStart() {
                         </span>
                     </button>
                 </div>
-                <div className="flex flex-row w-11/12  justify-between items-center  ">
+                <div className="flex flex-col w-11/12  justify-between items-center md:flex-row  ">
                     <img className=" xl:scale-125 max-w-7xl lg:max-w-lg md:w-1/3 sm:w-40   max-h-96" src={girlpic} alt="img" />
                     <img className="  xl:scale-125 max-w-5xl  lg:max-w-lg md:w-1/3 sm:w-40  max-h-96" src={boypic} alt="img" />
                 </div>
                 <div className="    flex flex-col justify-center items-center  ">
                     <img className=" w-7 md:w-10 z-10" src={mouse} alt="mouse" />
-                    <img className="  absolute" src={polygon} alt="" />
+                    <img className=" hidden md:flex        absolute" src={polygon} alt="" />
                 </div>
             </div>
 

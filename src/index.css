@@ -77,6 +77,9 @@
     background-size:cover;
     background-position: center;
 }
+.blur-sm{
+    filter: blur(0.5px);
+}
 
 
 

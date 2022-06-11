@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import pro from "../Assets/Picture/professional.png";
 import picture from "../Assets/Picture/Group 1327.png";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { EffectCoverflow,Pagination } from "swiper";
+import SwiperCore, { EffectCoverflow, Pagination } from "swiper";
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
@@ -14,6 +14,8 @@ import SlidePerButton from "./SlidePerButton";
 SwiperCore.use([EffectCoverflow]);
 
 export default function Professional() {
+  const [active, setActive] = useState(false);
+
   return (
     <div className=" w-full flex flex-col justify-center -z-10 items-center  lg:mt-40  ">
       <div className="mt-40 top-picture self-center items-center flex w-auto   justify-center  " >
@@ -23,11 +25,11 @@ export default function Professional() {
         <Swiper
           className="w-full"
           // install Swiper modules
-          modules={[EffectCoverflow,Pagination]}
+          modules={[EffectCoverflow, Pagination]}
           spaceBetween={30}
           slidesPerView={3}
           initialSlide={1}
-          
+
           centerInsufficientSlides={true}
           maxBackfaceHiddenSlides={3}
           rewind={true}
@@ -38,7 +40,7 @@ export default function Professional() {
               320: {
                 slidesPerView: 1,
                 spaceBetween: 50,
-                
+
               }
               // when window width is >= 480px
               , 480: {
@@ -71,13 +73,26 @@ export default function Professional() {
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log('slide change')}
         >
-          <div className=" md:flex flex-row justify-between mx-5 items-center hidden">
+          <div className="  md:flex flex-row justify-between mx-5 items-center hidden">
             <SlidePerButton />
             <SlideNextButton />
           </div>
-          <SwiperSlide className=" blur-sm"><img src={picture} alt="slider" /></SwiperSlide>
-          <SwiperSlide className=""><img src={picture} alt="slider" /></SwiperSlide>
-          <SwiperSlide className=" blur-sm"><img src={picture} alt="slider" /></SwiperSlide>
+          <SwiperSlide>
+            {({ isActive }) => (
+              <div className={isActive ? "hover:scale-105" : " hover:scale-105 blur-sm"}><img src={picture} alt="" /></div>
+            )}
+          </SwiperSlide>
+          <SwiperSlide>
+            {({ isActive }) => (
+              <div className={isActive ? " hover:scale-105" : " hover:scale-105 blur-sm"}><img src={picture} alt="" /></div>
+            )}
+          </SwiperSlide>
+
+          <SwiperSlide>
+            {({ isActive }) => (
+              <div className={isActive ? " hover:scale-105" : " hover:scale-105 blur-sm"}><img src={picture} alt="" /></div>
+            )}
+          </SwiperSlide>
 
         </Swiper>
       </div>
