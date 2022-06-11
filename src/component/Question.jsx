@@ -6,7 +6,7 @@ import arrow from "../Assets/Icon/Path 6.png"
 
 export default function Question() {
     return (
-        <div className=" flex flex-col justify-center items-center  lg:mt-40 w-full">
+        <div className=" flex flex-col justify-center items-center mt-20 lg:mt-40 w-full">
             <img className="max-w-sm lg:max-w-lg self-center " src={question} alt="picture" />
             <div className="  w-full">
                 <ul className=" flex flex-col justify-center items-center text-right w-full font-bold ">

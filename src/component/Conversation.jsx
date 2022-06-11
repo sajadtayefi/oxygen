@@ -8,11 +8,11 @@ import profile from "../Assets/Icon/Group 4842.png"
 
 export default function Conversation() {
     return (
-        <div className="flex flex-col justify-center items-center w-full lg:mt-40">
+        <div className="flex flex-col justify-center items-center w-full mt-20 lg:mt-40">
             <div className=" w-auto" >
                 <img className="max-w-sm lg:max-w-lg self-center" src={conversation} alt="picture" />
             </div>
-            <div className="flex flex-col justify-center w-full mt-28  items-center m-10">
+            <div className="flex flex-col justify-center w-full mt-10  items-center m-10">
                 <div className="flex flex-row items-center justify-around w-full">
                     <img className=" w-9  " src={prev} alt="prev" />
                     <div className=" flex flex-col  box m-10  justify-between h-full p-2 rounded-xl bg-white text-right">

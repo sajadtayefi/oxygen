@@ -19,7 +19,7 @@ export default function TopBar() {
 
     return (
         <section>
-            <div className={navbar ? " flex flex-col justify-end items-end text-right  " : " w-full hidden  xl:flex xl:flex-row "}>
+            <div className={navbar ? " flex flex-col justify-end items-end text-right    " : " transition-all delay-300 w-full hidden  xl:flex xl:flex-row "}>
             <img onClick={toggleNavbar} className={navbar ? " w-6 mr-6 mt-8   cursor-pointer" : "hidden"} src={close} alt="" />
 
                 <button className={navbar ? " relative btn-background items-center justify-center h-12 rounded-xl  w-40 flex p-2 flex-row m-7":"  relative btn-background items-center justify-center h-12 rounded-xl xl:absolute w-40 flex p-2 flex-row m-7 "}>

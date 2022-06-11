@@ -20,11 +20,11 @@ import pic15 from "../Assets/Icon/15.png"
 
 export default function Services() {
     return (
-        <div className="flex flex-col w-full justify-center items-center mt-10 lg:mt-40 p-15">
+        <div className="flex flex-col w-full justify-center items-center mt-20 lg:mt-40 p-15">
             <div className=" w-auto">
                 <img className="max-w-sm lg:max-w-lg self-center" src={service} alt="service" />
             </div>
-            <div className="mt-32">
+            <div className="mt-10">
                 <ul className="flex flex-row  justify-center max-w-screen-xl flex-wrap ">
                     <li className=" flex flex-col justify-center w-1/2 md:w-auto  items-center ">
                         <img className="" src={pic1} alt="pic" />
