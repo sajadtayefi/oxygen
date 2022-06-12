@@ -33,7 +33,7 @@ export default function TopBar() {
                         <span className=" xl:mx-10">
                             صفحه اصلی
                         </span>
-                        <img className={navbar ? " absolute ml-28  " : " absolute ml-14 mt-6 "} src={dot} alt="active" />
+                        <img className={navbar ? " absolute ml-28  " : " absolute ml-14 mt-10 "} src={dot} alt="active" />
                     </li>
                     <li className="  w-auto">
                         <span className="mx-10">
