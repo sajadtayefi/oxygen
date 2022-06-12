@@ -22,7 +22,7 @@ export default function Services() {
     return (
         <div className="flex flex-col w-full justify-center items-center mt-20 lg:mt-40 p-15">
             <div className=" w-auto">
-                <img className="max-w-sm lg:max-w-lg self-center" src={service} alt="service" />
+                <img className="w-96 lg:max-w-lg self-center" src={service} alt="service" />
             </div>
             <div className="mt-10">
                 <ul className="flex flex-row  justify-center max-w-screen-xl flex-wrap ">

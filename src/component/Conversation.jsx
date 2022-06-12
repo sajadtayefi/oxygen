@@ -10,7 +10,7 @@ export default function Conversation() {
     return (
         <div className="flex flex-col justify-center items-center w-full mt-20 lg:mt-40">
             <div className=" w-auto" >
-                <img className="max-w-sm lg:max-w-lg self-center" src={conversation} alt="picture" />
+                <img className="w-96 lg:max-w-lg self-center" src={conversation} alt="picture" />
             </div>
             <div className="flex flex-col justify-center w-full mt-10  items-center m-10">
                 <div className="flex flex-row items-center justify-around w-full">

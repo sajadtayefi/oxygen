@@ -1,7 +1,16 @@
 @tailwind base;
 @tailwind components;
 
-
+.bg-backgroundpage{
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0rem;
+    z-index: -1;
+}
 .icon-user {
     background: url("./Assets/Icon/Group 6015.png") no-repeat right;
     background-position: left;
