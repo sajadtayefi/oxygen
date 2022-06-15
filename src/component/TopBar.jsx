@@ -53,8 +53,8 @@ export default function TopBar() {
                 </ul>
             </div>
             <div className=" xl:hidden overflow-hidden">
-                <ul className={navbar ? " absolute left-0  bg-white  flex flex-col justify-start z-10  items-center h-full w-full    transition-all ease-in delay-500 space-x-2  "
-                    : "absolute -left-full bg-white  flex flex-col justify-start items-center h-full w-full   transition-all ease-in delay-500 space-x-2  "}>
+                <ul className={navbar ? " absolute left-0  bg-white  flex flex-col justify-start z-10  items-center h-full w-full    transition-all ease-in delay-300 space-x-2  "
+                    : "absolute -left-full bg-white  flex flex-col justify-start items-center h-full w-full   transition-all ease-in delay-300 space-x-2  "}>
                     <button className="  btn-background items-center justify-center h-12 rounded-xl  w-40 flex p-2 flex-row m-7 ">
                         <span className=" text-cyan-50 self-center w-28 ">
                             ورود / ثبت نام
