@@ -19,7 +19,7 @@ export default function Professional() {
   return (
     <div className=" w-full flex flex-col justify-center -z-10 items-center  lg:mt-40  ">
       <div className="mt-40 top-picture self-center items-center flex w-auto   justify-center  " >
-        <img className=" max-w-sm lg:max-w-lg self-center " src={pro} alt="pic" />
+        <img className=" w-96 lg:max-w-lg self-center " src={pro} alt="pic" />
       </div>
       <div className=" w-full m-20  justify-center items-center flex flex-row-reverse">
         <Swiper

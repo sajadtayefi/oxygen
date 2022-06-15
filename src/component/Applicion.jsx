@@ -6,7 +6,7 @@ export default function WebSite() {
     return (
         <div className=" w-full flex flex-col items-center justify-center" >
             <div className="w-full flex flex-col-reverse lg:mt-40 mt-20 justify-center items-center xl:flex-row  ">
-                <img className="max-w-sm lg:max-w-sm self-center " src={picture} alt="picture" />
+                <img className=" w-96 lg:max-w-sm self-center " src={picture} alt="picture" />
                 <div className="flex flex-col justify-center items-end mx-10  h-auto   ">
                     <img className=" md:w-1/2  " src={image} alt="website" />
                     <div className=" text-right ">
