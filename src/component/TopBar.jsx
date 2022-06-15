@@ -28,7 +28,7 @@ export default function TopBar() {
                         <span className=" xl:mx-10">
                             صفحه اصلی
                         </span>
-                        <img className="" src={dot} alt="active" />
+                        <img className=" absolute ml-14 mt-10" src={dot} alt="active" />
                     </li>
                     <li className="  w-auto">
                         <span className="mx-10">
