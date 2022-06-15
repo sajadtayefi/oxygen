@@ -17,6 +17,9 @@
     background-size: 13px;
     background-position-x: 20px
 }
+.h{
+    height: 100vh;
+}
 
 .icon-phone {
     background: url("./Assets/Icon/Group 6014.png") no-repeat right;
