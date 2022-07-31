@@ -16,8 +16,8 @@ import Footer from "../component/Footer";
 
 export default function Home() {
     return (
-        <div className=" font-Peyda-Medium bg-backgroundpage bg-no-repeat bg-cover bg-center  flex justify-center items-center flex-col mx-auto   ">
-            <div className=" container mx-auto px-4    ">
+        <div className="  font-Peyda-Medium bg-backgroundpage bg-no-repeat bg-cover bg-center  flex justify-center items-center flex-col mx-auto   ">
+            <div className=" container mx-auto px-4  ">
                 <TopBar />
                 <GetStart />
                 <WebSite />

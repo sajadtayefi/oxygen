@@ -1,5 +1,9 @@
 @tailwind base;
 @tailwind components;
+@font-face {
+    font-family: "Peyda-Medium";
+    src: url("./Font/Peyda-Medium.ttf");
+  }
 
 .bg-backgroundpage{
     background-size: cover;

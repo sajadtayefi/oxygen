@@ -10,7 +10,7 @@ export default function GetStart() {
     return (
             <div className=" text-white sm:w-full w-auto bg-background bg-center bg-no-repeat  bg- flex flex-col items-center justify-center rounded-3xl ">
                 <div className=" flex flex-col  items-center text-right mt-10 w-full  ">
-                    <h3 className="m-10   sm:w-auto font-Peyda-ExtraBold text-4xl ">
+                    <h3 className="m-10   sm:w-auto text-4xl ">
                         اکسیژن  بهترین  روش  برای یک  شروع  عالی  در  کسب  و  کار   !
                     </h3>
                     <p className="my-10 md:w-auto  sm:w-40 ">

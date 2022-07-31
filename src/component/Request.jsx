@@ -51,7 +51,7 @@ export default function Request() {
                             بازه زمانی
                         </option>
                     </select>
-                    <button className="  btn-gradnt3 mr-28 self-end m-5 p-2  w-36 flex flex-row text-xs justify-center items-center text-white rounded-xl ">
+                    <button className="  btn-gradnt3 self-end mr-[120px]  p-3  mt-10  w-36 flex flex-row font-light justify-center items-center text-white rounded-xl ">
                         <span className=" flex flex-row justify-center items-center ">
                             مشاوره و درخواست ...
                         </span>
@@ -60,4 +60,4 @@ export default function Request() {
             </div>
         </div>
     )
-}
+}   
